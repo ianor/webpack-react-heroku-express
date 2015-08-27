@@ -1,5 +1,5 @@
 {
-  "name": "<YOU APP'S NAME HERE>",
+  "name": "<YOUR APP'S NAME HERE>",
   "version": "1.0.0",
   "description": "Boilerplate code for a React/Express app using Webpack ready to deploy on Heroku",
   "main": "./client/app/main.js",
