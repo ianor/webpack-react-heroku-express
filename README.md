@@ -1,5 +1,5 @@
 # webpack-react-heroku-express
-Boilerplate project for React/Express app using Webpack (and Sass) ready to deploy to Heroku.
+Boilerplate project for React/Express app (with Flux) using Webpack (and Sass) ready to deploy to Heroku.
 
 ###Setup:
 First, clone the repo and prep it for becoming a new project by nuking the existing .git folder and re-git-init-ing:
@@ -31,6 +31,10 @@ After which, if you've set everything up correctly, you should be able to push t
 `git push heroku master`
 
 ###That's it!
+
+You're ready to develop!
+
+Build your React/Flux frontend in the `client` folder, build your Express app in the `server` folder (the `data` folder in there is in case you want to keep any database files locally), add your sass and such in the `scss` folder, and party hardy :) 
 
 Let me know if you have any questions or suggestions, thanks!
 
