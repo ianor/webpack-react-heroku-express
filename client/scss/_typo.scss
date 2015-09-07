@@ -1,0 +1,24 @@
+// #Typography //////////////////////////////////////////////////////////////////////////////
+@mixin font($size: null, $weight:normal, $style: null) {
+    font-weight: $weight;
+
+    @if $style != null {
+        font-style: $style;
+    }
+
+    @if $size != null {
+        font-size: $size;
+    }
+}
+
+@mixin font1($size: null, $weight:700, $style: null) {
+    font-family: "nimbus-sans-condensed", "NimbusSanCon",sans-serif;
+    @include font($size, $weight, $style);
+}
+
+/* For embedded fonts...
+@font-face {
+    font-family: museo;
+    src: url('/assets/fonts/MuseoSlab-500.otf');
+}
+*/

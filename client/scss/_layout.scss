@@ -1,0 +1,36 @@
+$mastHeight: 5em;
+$keelHeight: 2.75em;
+
+.app {
+    @extend .fullView;
+    /*background-color: $colorPrimary;*/
+    /*max-width: 800px;*/
+    /*margin: 0 auto;*/
+}
+
+.mastHead, .keel {
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 10;
+}
+
+.mastHead {
+    height: $mastHeight;
+    padding: 0 1em;
+}
+
+.hull {
+    @extend .fullView;
+    position: relative;
+    width: 100%;
+    /*background-color: $colorPrimary;*/
+    padding-top: $mastHeight;
+    /*padding-bottom: $keelHeight;*/
+}
+
+.keel {
+    height: $keelHeight;
+    bottom: 0;
+}
+

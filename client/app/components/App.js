@@ -9,7 +9,11 @@ var App = React.createClass({
     render() {
         return (
             <div>
-                <h1>React is running...</h1>
+                <header className="mastHead"></header>
+                <section className="hull">
+                    <h1>React is running...</h1>
+                </section>
+                <footer className="keel"></footer>
             </div>
         );
     }
